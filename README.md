@@ -1,8 +1,8 @@
 # Non-equivalence of expected free energy and revised integrated information in noisy permutation networks
 
-Minimal reproducibility package for the manuscript by **Katsuaki Tanabe**.
+Reproducibility package for the manuscript by **Katsuaki Tanabe**.
 
-This repository contains only the numerical code and derived numerical data needed to check the manuscript's principal computational results. Manuscript figures, figure-generation scripts, notebooks, caches, and local copies of third-party repositories are intentionally excluded.
+This repository contains the numerical code and derived numerical data needed to check the manuscript's principal computational results.
 
 ## Contents
 
@@ -114,18 +114,6 @@ Representative values include:
 - at `eta = 0.75`, the reciprocal two-cycle has `phi_s = 0.6580828133` ibits and `G2 = 0.3774437511` bits, while the disconnected self-copy control has `phi_s = 0`;
 - at `eta = 0.75`, both single three-cycles have `phi_s = 0.4935621100` ibits, whereas all four multicycle three-node architectures have `phi_s = 0`;
 - the maximum PyPhi-versus-analytic discrepancies are at floating-point precision for the reported checks.
-
-## Scope
-
-This archive is deliberately minimal. It does **not** include:
-
-- manuscript figures or figure-generation scripts;
-- Jupyter notebooks;
-- Python caches or temporary files;
-- a copy of the PyPhi repository;
-- a copy of the `intrinsic-information` repository.
-
-Those third-party projects are referenced by version/commit rather than redistributed here.
 
 ## License
 
